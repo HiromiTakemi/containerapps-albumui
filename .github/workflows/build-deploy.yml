@@ -40,3 +40,5 @@ jobs:
           tags: ${{ env.CONTAINER_REGISTRY }}/${{ env.REPOSITORY_NAME }}:${{ github.sha }}
           file: ./Dockerfile
           context: ./
+
+https://github.com/HiromiTakemi/containerapps-albumapi-javascript/actions/workflows/build-deploy.yml
